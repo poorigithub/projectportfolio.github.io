@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+      />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+
+   
+    <style>
+    .about__name {
+      font-size:90px;
+    }
+    .about__name:after {
+      content:'';
+      color:rgb(0, 112, 204);
+      animation:write 30s linear;
+      /* animation: duration 1.5s; */
+      /* animation-fill-mode: forwards; */
+      animation-timing-function: steps(30, end);
+      
+    /* overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    /* animation-fill-mode: forwards; */
+    } 
+    
+    @keyframes write {
+      1% {
+        content:'P';
+      }
+      2% {
+        content:'Po';
+      }
+      3% {
+        content:'Pol';
+      }
+      4% {
+        content:'Poli';
+      }
+      5% {
+        content:'Poli ';
+      }
+      6% {
+        content:'Poli P';
+      }
+      7% {
+        content:'Poli Poo';
+      }
+      8% {
+        content:'Poli Poor';
+      }
+      
+      14% {
+        content:'Poli Poorn';
+      }
+      14.5% {
+        content:'Poli Poorni';
+      }
+      15% {
+        content:'Poli Poornim';
+      }
+      15.5% {
+        content:'Poli Poornima';
+      }
+    }
+    @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+      
+</style>
+    <link rel="stylesheet" href="styles .css" />
+    <title>Poli Poornima</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/poorigithub" class="link"
+          >Poli</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div>
+        <div class="about__container container grid">
+          <img src="about.jpg" alt="" class="about__img">
+     
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name"></span></h1>
+        <h2 class="about__role">A Front end Developer.</h2>
+        <p class="about__desc">
+         Hi i'm a  frontend developer with extensive knowledge for creating
+           and implementing the visual and interactive elements of a 
+           website or web application. Working with web technologies and
+            user interface (UI) and user experience (UX), ensuring that 
+            the digital products.
+        </p>
+
+        <div class="about__contact center">
+          <a href="/port/poornima_resume.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/polipoornima"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="linkedin.com/in/poli-poornima-582014282"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              <b>Title: Plant Leaf Disease Detection using Deep
+Learning and Machine Learning (05/2023 - 08/2023)</b> <br>
+In this project we have successfully classified the images of
+Identification of Plant Leaf Diseases Classification, are either affected with the Plant Leaf diseases using the deep learning and machine learning. which will be of different types and different plants (healthy or unhealthy) and trained using SVC, CNN, ANN along with some Resnet50 transfer learning method. After the training we have
+tested by uploading the image and classified it.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">Deep Learning</li>
+              <li class="project__stack-item">HTML, CSS</li>
+              <li class="project__stack-item">Javascript</li>
+            </ul>
+
+            <a
+              href="https://github.com/polipoornima"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              <b>Title: BesanTech Employee Database
+(11/2023 - 12/2023) </b><br>
+BesanTech is a startup that works in the Data Science field. BesanTech has worked on fraud detection, market basket, self- driving cars, supply chain, algorithmic early detection . With the annual appraisal cycle around the corner, the HR
+department has asked you (Junior Database Administrator) to
+generate reports on employee details, their performance, and on
+the project that the employees have undertaken, to analyze the
+employee database and extract specific data based on different
+requirements
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">MYSQL</li>
+              <li class="project__stack-item">DBMS</li>
+            </ul>
+
+            <a
+              href="https://github.com/polipoornima"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+             <b>Tilte: Weather Cast</b><br>WeatherCast is a web-based 
+             application it provides users with accurate and up-to-date
+              weather forecasts for their desired locations. this application
+               utilizes data from reliable weather APIs to fetch real-time weather 
+               information and present it in a user-friendly format. This project aims
+                to enhance users' understanding of weather patterns and forecasting while 
+                offering a practical tool for planning daily activities.
+              unde beatae Quis
+            </p>
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">Javascript</li>
+          </ul>
+
+          <a
+            href="https://github.com/polipoornima"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://example.com"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Core Java</li>
+          <li class="skills__list-item btn btn--plain">Django Framework</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Excel</li>
+          <li class="skills__list-item btn btn--plain">MS Office</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <!-- <h2 class="section__title">Contact</h2> -->
+        <a href="mailto:polipoornima62@gmail.com">
+          <section id="contact">
+            <h1 id="heading2">Contact <span>Me!</span></h1>
+            <br><br>
+    
+            <form action=""> 
+                <div class="inputbox">
+                    <input type="text" placeholder="Full Name" id="name" required>
+                    <input type="email" placeholder="Email Address" id="email" required>
+                </div>
+    
+                <div class="inputbox">
+                    <input type="number" placeholder="Mobile Number" id="number" required>
+                </div>
+                <textarea  id="message"  rows="8" placeholder="Your Message" required></textarea>
+                <!-- <input type="submit" value="Send Message" class="btn"> -->
+                <button class="btn" onclick="sendEmail()">Send Message</button>
+            </form>
+    
+        </section>
+    
+        <footer id="footer">
+            <div class="footertext">
+                <!-- <p>Copyright &copy; 2024 by Poli Poornima | All Rights Reserved</p> -->
+            </div>
+    
+            <div class="footericon">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+   
+    </body>
+    </html>
+          <span class="btn btn--outline">Email me</span>
+        </a>
+        <!-- ----------------contact---------------------- -->
+        
+       
+    <div>
+      <a
+        href="linkedin.com/in/poli-poornima-582014282"
+        aria-label="linkedin"
+        class="link link--icon"
+      >
+    </div>
+        <i aria-hidden="true" class="fab fa-linkedin"></i>
+      </a>
+          
+      </section>
+    </main>
+    
+
+    <footer class="footer">
+      <a
+        href="https://github.com/polipoornima"
+        class="link footer__link"
+      >
+        Created By Poli Poornima
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
